@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Gym Experience</title>
+    <!-- Styles for the webpage -->
+    <style>
+        body {
+            background-color: #838383; /* Light gray background */
+            font-family: Arial, sans-serif; /* Default font for the whole webpage */
+        }
+        h1, h2 {
+            color: #333; /* Dark gray for headings */
+        }
+        a {
+            color: #0066cc; /* Blue color for links */
+            text-decoration: none; /* Remove underline from links */
+        }
+        a:hover {
+            color: #005999; /* Darker blue for links when hovered */
+        }
+        table {
+            width: 100%; /* Table will occupy the full width of its container */
+            border-collapse: collapse; /* Collapsing the border so there's no space between cells */
+        }
+        th, td {
+            border: 1px solid #ddd; /* Light gray border for table cells */
+            padding: 8px; /* Padding inside table cells */
+            text-align: center; /* Center alignment for text in table cells */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Main title of the webpage -->
+    <h1 id="top">Welcome to The Gym Experience!</h1>
+
+    <!-- Navigation links -->
+    <nav>
+        <a href="#section1">Schedule</a> |
+        <a href="#section2">Machines</a> |
+        <a href="#section3">Feedback</a> |
+        <a href="#bottom">Go to bottom</a>
+    </nav>
+
+    <!-- Why people go to the gym -->
+    <p><b>Why do people go to the gym?</b></p>
+    <ol>
+        <li>Fitness and health</li>
+        <li>Weight management</li>
+        <li>Strength and muscle building</li>
+        <li>Stress relief and mental well-being</li>
+    </ol>
+    <hr>
+
+    <!-- Image of a gym -->
+    <img src="gym.png" alt="Gym with various machines" width="700" height="400"> 
+
+    <!-- Section on workout schedule -->
+    <h2 id="section1">Workout Schedule</h2>
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>Workout</th>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td>Chest and Back</td>
+        </tr>
+
+        <tr>
+            <td>Tuesday</td>
+            <td>Shoulders and Arms</td>
+        </tr>
+
+        <tr>
+            <td>Wednesday</td>
+            <td>Legs</td>
+        </tr>
+    </table>
+      
+      <br> 
+
+    <!-- Section on gym machines -->
+    <h2 id="section2">Explore Machine Guides</h2>
+    <p>Click on the links below to learn about some of the most popular gym machines:</p>
+    <dl>
+        <li><a href="treadmill.html">Treadmill</a></li>
+        <li><a href="legpress.html">Leg-press</a></li>
+        <li><a href="pecdeck.html">Peck Deck Machine</a></li>
+        <li><a href="lat-pulldown.html">Lat Pull Down</a></li>
+        <li><a href="stair-climber.html">Stair Climber</a></li>
+        <li><a href="shoulder-press.html">Shoulder Press Machine</a></li>
+        <li><a href="preacher-curl.html">Preacher Curls</a></li>
+      	<li><a href="stationary-bike.html">Stationary Bike</a></li>
+
+    </dl>
+
+    <!-- Section on feedback form -->
+    <h2 id="section3">Feedback Form</h2>
+    <form action="mailto:sana@uwindsor.ca" method="post" enctype="text/plain">
+        Name:<br>
+        <input type="text" name="name" value=""><br>
+        E-mail:<br>
+        <input type="text" name="mail" value=""><r>
+        Feedback:<br>
+        <input type="text" name="feedback" value=""><br><br>
+        <input type="submit" value="Send">
+    </form>
+
+    <!-- Clickable image map -->
+    <h2>Clickable Image</h2>
+    <img src="gym2.jpg" usemap="#image_map">
+<map name="image_map">
+  <area alt="shoulder" title="shoulder" href="shoulder-press.html" coords="734,176,1182,658" shape="rect">
+  <area alt="Lats pull down" title="Lats pull down" href="lat-pulldown.html" coords="394,-1,672,609" shape="rect">
+  <area alt="treadmill" title="treadmill" href="treadmill.html" coords="299,200,524,465" shape="rect">
+</map>
+
+    <hr>
+    <!-- Contact information -->
+    <p>For further information, you may contact us via our email: <a href="mailto:sanad@uwindsor.ca">sanad@uwindsor.ca</a></p>
+
+    <!-- Citation page -->
+    <p>All content on this website is original. For citation, please visit our <a href="citation.html">citation page</a>.</p>
+          
+    <a id="bottom"></a> <!-- This is the anchor at the bottom of the page -->
+
+    <!-- Back to top link -->
+    <a href="#top">Back to Top</a>
+</body>
+
+</html>
